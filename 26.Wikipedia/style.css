@@ -1,0 +1,117 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+  padding: 20px;
+}
+img {
+  width: 250px;
+}
+input {
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid greenyellow;
+  margin: 20px;
+  padding-left: 10px;
+}
+input::placeholder {
+  color: orange;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid green;
+  list-style-type: none;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.para {
+  font-size: 15px;
+  font-weight: normal;
+}
+.link {
+  text-decoration: none;
+}
+.pagebtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pngBtn {
+  background-color: orange;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+
+.customBtn {
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+.customBtn:hover {
+  background-color: black;
+  color: white;
+}
+.customCon {
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: aqua;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background-color: aliceblue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: green;
+}

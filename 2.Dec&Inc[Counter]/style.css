@@ -1,0 +1,41 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.count-btns {
+  background-color: aliceblue;
+  border: 1px solid transparent;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.count-btns button {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid olivedrab;
+  width: 100px;
+  height: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#count-value {
+  font-size: 45px;
+  font: bold italic;
+}

@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  img {
+    width: 50%;
+  }
+}
+form {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+label {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}
+input {
+  margin: 2px;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  outline: none;
+  cursor: pointer;
+}
+small {
+  margin: 5px;
+
+  color: red;
+}
+button {
+  margin: 10px auto;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  border: 1px solid green;
+}

@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+.qst {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+.row {
+  margin: 15px;
+}
+input {
+  cursor: pointer;
+}
+label {
+  cursor: pointer;
+}
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+p {
+  margin: 20px 0px;
+}

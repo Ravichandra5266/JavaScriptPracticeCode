@@ -1,0 +1,26 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png');
+  background-size: cover;
+  color: white;
+}
+input {
+  width: 300px;
+  border: 1px solid;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tip-calculator-img.png"
+        alt="tip-calculator-img"
+      />
+
+      <form id="form">
+        <div>
+          <h1>Tip Calculator</h1>
+          <label for="bill-amount">Bill Amount <sup>*</sup></label>
+          <input type="text" id="bill-amount" placeholder="Bill Amount" />
+          <small id="bill-amt"></small>
+          <label for="bill-percentage">Bill Percentage <sup>*</sup></label>
+          <input
+            type="text"
+            id="bill-percentage"
+            placeholder="Bill Percentage"
+          />
+          <small id="bill-per"></small>
+          <label for="tip-amount">Tip Amount</label>
+          <input
+            disabled
+            type="text"
+            id="tip-amount"
+            placeholder="Tip Amount"
+          />
+          <label for="total-amount">Total Amount</label>
+          <input
+            disabled
+            type="text"
+            id="total-amount"
+            placeholder="Total Amount"
+          />
+          <div class="row">
+            <button type="submit">Calculate</button>
+            <button id="reset" type="button">Reset</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
